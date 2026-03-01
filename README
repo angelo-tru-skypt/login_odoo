@@ -31,5 +31,21 @@ El sistema permite visualizar usuarios registrados, editarlos dinámicamente y e
 ## 1️⃣ Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git remote add origin https://github.com/angelo-tru-skypt/login_odoo.git
 cd tu-repositorio
+
+# Instalación de dependencias
+cd backend
+pip install -r requirements.txt
+cd odoo
+pip install setuptools wheel  
+pip insttall -r requirements.txt
+
+# Ejecución
+python odoo-bin -r YourUser -w YourPassword --addons-path=addons -d YourDatabase
+cd ../
+uvicorn main:app --reload
+cd ../
+cd frontend
+npm install
+npm run dev
