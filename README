@@ -1,0 +1,35 @@
+# 🧑‍💻 Sistema de Gestión de Usuarios
+
+Aplicación web desarrollada con **React (Frontend)** y una **API REST (Backend en puerto 8000)** que permite gestionar usuarios mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar).
+
+El sistema permite visualizar usuarios registrados, editarlos dinámicamente y eliminarlos desde una interfaz moderna y profesional.
+
+---
+
+# 🚀 Tecnologías Utilizadas
+
+## 🔹 Frontend
+- React
+- JavaScript (ES6+)
+- Fetch API
+- CSS personalizado
+
+## 🔹 Backend
+- API REST: FastAPi
+- Base de datos relacional (PostgreSQL + Odoo)
+- Authenticación: Odoo
+- Métodos HTTP:
+  - GET
+  - POST
+  - PUT
+  - DELETE
+
+---
+
+# ⚙️ Instalación del Proyecto
+
+## 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
